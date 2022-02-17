@@ -52,7 +52,7 @@ body {
 .underline {
 	display: inline-block;
 	width: 100%;
-	border: 2px solid var(--lightviolet);
+	border: 2px solid var(--grey);
 }
 
 .ans,
