@@ -1,0 +1,56 @@
+<html>
+   <head>
+      <title>Calculator js </title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+   </head>
+   <body>
+      <!-- Start Container -->
+      <div class ="container">
+         <!-- Start Calc -->
+         <div class="cal">
+            <header class="headerSection">
+               <!-- Start Header -->
+               <h3 class="heading">calculator by html/css/js project</h3>
+               <span class="underline"></span>                         
+            </header>
+            <!-- End Header -->
+            <div class="ans">   
+               <input type="text" id="answer" />
+            </div>
+            <div class="row">
+               <button value="1" class="btn" onclick="view(1)">1 </button>
+               <button value="2" class="btn"onclick="view(2)">2 </button>
+               <button value="1"class="btn" onclick="view(3)">3 </button>
+               <button value="2" class="btn"onclick="view(4)">4 </button>
+            </div>
+            <div class="row">
+               <button value="1"class="btn" onclick="view(5)">5 </button>
+               <button value="2"class="btn" onclick="view(6)">6 </button>
+               <button value="1"class="btn" onclick="view(7)">7 </button>
+               <button value="2"class="btn" onclick="view(8)">8 </button>
+            </div>
+            <div class="row">
+               <button value="1" class="btn"onclick="view(9)">9 </button>
+               <button value="2" class="btn"onclick="view(0)">0 </button>
+               <button value="-" class="rect_btn" onclick="view('-')">- </button>
+               <button value="+" class="rect_btn" onclick="view('+')">+</button>
+            </div>
+            <div class="row">
+               <button value="/" class="rect_btn" onclick="view('/')">/ </button>
+               <button value="*" class="rect_btn" onclick="view('*')">* </button>
+               <button value="clr"  class="rect_btn" onclick="clr()">clr </button>
+               <button value="=" class="rect_btn" onclick="eql()">= </button>
+            </div>
+         </div>
+         <!-- End Calc -->
+         <!-- Start footer -->
+         <footer id="footername">
+            <h2 class="authorname">@pm_ideas</h2>
+         </footer>
+         <!-- End footer -->
+      </div>
+      <!-- End Container -->
+      <script src="index.js"></script>
+   </body>
+</html>
